@@ -9,16 +9,18 @@
 
 2. Branches de Feature (Funcionalidade):
     - feature/{nome-da-feature}: Criados a partir do ramo develop para desenvolver novas funcionalidades. Após a conclusão, são mesclados de volta para develop.
-    // Cria feature
-    > git checkout -b feature/{nome-da-feature}
-    // Vai para branch develop
-    > git checkout develop
-    // Mergea as atualizações
-    > git merge feature/{nome-da-feature}
-    // excluir um branch local
-    > git branch -d feature/{nome-da-feature}
-    // excluir um branch remoto
-    > git push origin --delete feature/{nome-da-feature}
+    ```
+    # Cria feature
+    git checkout -b feature/{nome-da-feature}
+    # Vai para branch develop
+    git checkout develop
+    # Mergea as atualizações
+    git merge feature/{nome-da-feature}
+    # excluir um branch local
+    git branch -d feature/{nome-da-feature}
+    # excluir um branch remoto
+    git push origin --delete feature/{nome-da-feature}
+    ```
 
 
 3. Branches de Release (Versão):
