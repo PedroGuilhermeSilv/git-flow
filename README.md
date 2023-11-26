@@ -88,3 +88,9 @@ git config --global user.signingkey {id_chave}
 git config commit.gpgsign true
 
 ```
+para usar a assiantura nas tags:
+```
+git config tag.gpgsign true
+
+```
+caso queira usar assinatura em todos os repositórios use --global.
