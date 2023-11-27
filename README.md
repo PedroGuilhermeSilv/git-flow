@@ -54,4 +54,3 @@
                 
 4. Branches de Hotfix (Correção Rápida):
     - hotfix/{nome-da-correcao}: Criados a partir de master para corrigir problemas críticos em produção. Assim que a correção é feita, é mesclada em master e develop, e uma tag é criada.
-
